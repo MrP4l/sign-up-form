@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="leftBlock">
+            <img class="img" src="img/halie-west-25xggax4bSA-unsplash.jpg">
+            <div class="maskDiv">
+                <div class="icon">
+                    <a href="https://github.com/MrP4l">
+                        <img class="icon" src="img/odin-lined.png">
+                    </a>
+                </div>
+                <div class="text">
+                    FORM
+                </div>
+            </div>
+        </div>
+
+        <div class="rightBlock">
+
+            <div class="upperRightDiv">
+                <div class="textDescription">
+                    Not the most beautiful sign-up form
+                    <br>
+                    but
+                    <br>i'm trying to.
+                </div>
+            </div>
+
+
+            <form id="middleRightDiv" action="#" method="get">
+                <div class="inputDiv firstName">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" placeholder="Jesse..." name="first_name">
+                </div>
+                <div class="inputDiv lastName">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" placeholder="Pinkman..." name="last_name">
+                </div>
+                <div class="inputDiv email">
+                    <label for="user_email">EMAIL</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                </div>
+                <div class="inputDiv phoneNumber">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>
+                <div class="inputDiv password">
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password" required pattern="(.|\s)*\S(.|\s)*"/>
+                    <span id="errorMessage"></span>
+                </div>
+                <div class="inputDiv confirmPassword">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_password" name="password" required pattern="(.|\s)*\S(.|\s)*">
+                </div>
+            </form>
+            
+            <div class="bottonRightDiv">
+                <div class="buttonDiv">
+                    <button class="button" type="submit" form="middleRightDiv">Create Account</button>
+                </div>
+                <div class="underButton">
+                    Already have an account? <a class="logIn" href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
