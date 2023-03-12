@@ -1,4 +1,5 @@
 # Sign-Up-Form
-The Odin Project project - https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
+This is a simple Sign Up Form, voluntarily the submit button does not work. It's not optimized for mobile devices and no framework were used. 
+
 -------------------
-Not optimized for mobile devices
+Inspired by The Odin Project - https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
